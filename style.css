@@ -1,0 +1,46 @@
+ul {
+  list-style-type: none;
+  margin:0;
+  padding:0;
+  font-family:arial,sans-serif;
+  margin-top:;
+  align-items: baseline;
+}
+
+li{
+  display:inline;
+}
+
+ul#nav-bar{
+ position: absolute;
+  float: right;
+  right:0px;
+  justify-content: space-around;
+}
+.menu{
+  max-height:20px;
+}
+.logo{
+  max-height:80px;
+}
+
+.google{
+  display: flex;
+  align-items: center;
+  justify-content:center;
+  flex-direction: column;
+  padding: 100px;
+}
+button{
+  border:none;
+}
+
+.suerte{
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+}
+
+footer{
+  font-color: grey;
+}
